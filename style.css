@@ -76,13 +76,40 @@ button.allpost {
     border-radius: 16px;
 }
 
-.img3,
-.img4,
-.img5,
-.img6 {
+.lateral-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.post-lateral {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.post-lateral img {
     width: 110px;
     height: 80px;
-    border-radius: 16px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.post-lateral .data2 {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+.post-lateral p {
+    line-height: 1.5;
+    max-width: 260px;
+}
+
+.linha {
+    border-top: 1px solid #e0e0e0;
+    width: 100%;
 }
 
 /* Títulos */
